@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/gayathriProfile.jpg";
+import profilePic from "../assets/gayathriAI.png";
 import {motion} from "framer-motion";
 
 const container = delay => ({
@@ -17,11 +17,16 @@ const Hero = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
+                    <span
+                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent ml-4"
+                    >
+                        Hi, I am
+                    </span>
                     <motion.h1 
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className="pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+                        className="pb-16 text-5xl font-thin tracking-tight lg:text-8xl"
                     >
                         Gayathridevi Pappu
                     </motion.h1>
@@ -37,7 +42,7 @@ const Hero = () => {
                         variants={container(1)}
                         initial="hidden"
                         animate="visible"
-                        className="my-2 max-w-xl py-6 font-light tracking-tighter"
+                        className="my-2 max-w-xl py-6 tracking-tighter"
                     >
                         {HERO_CONTENT}
                     </motion.p>

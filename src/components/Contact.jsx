@@ -1,6 +1,7 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { CONTACT, GIT_LINK, INSTA_LINK, LINKEDIN_LINK } from "../constants"
 import { motion } from "framer-motion"
+import logo from '../assets/gayathri_logo.gif'
 
 const Contact = () => {
   return (
@@ -38,6 +39,7 @@ const Contact = () => {
                 <a href={LINKEDIN_LINK} target="_blank"><FaLinkedin/></a>
                 <a href={INSTA_LINK} target="_blank"><FaInstagram/></a>
             </div>
+            <a href="#navSection" className="inline-block"><img className='mx-auto -mt-8 w-24' src={logo} alt='logo'/></a>
         </div>
     </div>
   )

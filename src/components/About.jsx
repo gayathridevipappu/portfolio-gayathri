@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/GayaAbout.png";
 import { ABOUT_TEXT } from "../constants";
 import {motion} from 'framer-motion';
 
@@ -18,7 +18,7 @@ const About = () => {
             >
                 <div className="flex items-center justify-center">
                     <img 
-                        className="rounded-2xl"
+                        className="rounded-2xl h-96"
                         src={aboutImg} alt="About image"
                     />
                 </div>

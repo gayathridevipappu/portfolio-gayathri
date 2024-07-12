@@ -1,0 +1,35 @@
+.icon-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none; /* Remove underline from link */
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px; /* Adjust icon size as needed */
+}
+
+.icon-text {
+    display: none; /* Hide the text initially */
+    margin-left: 8px; /* Space between icon and text */
+    font-size: 16px; /* Reduced font size */
+    font-weight: bold;
+    background: linear-gradient(to right, #fbb6ce, #64748b, #a855f7); /* Gradient color: pink, yellow, purple */
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    transition: opacity 0.3s ease; /* Smooth transition for showing the text */
+}
+
+.icon-link:hover .icon {
+    display: none; /* Hide the icon immediately on hover */
+}
+
+.icon-link:hover .icon-text {
+    display: inline; /* Show the text on hover */
+    opacity: 1; /* Ensure the text is fully visible */
+}

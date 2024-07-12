@@ -40,6 +40,9 @@ const Technologies = () => {
                 className='rounded-2xl border-4 border-neutral-800 p-4'
             >
                     <RiReactjsLine className="text-7xl text-cyan-400"/>
+                    <div className="text-center text-gray-700 text-lg mt-2">
+                        React.js
+                    </div>
             </motion.div>
             <motion.div
                 variants={iconVariants(3)}
@@ -48,6 +51,9 @@ const Technologies = () => {
                 className='rounded-2xl border-4 border-neutral-800 p-4'
             >
                 <RiHtml5Line className="text-7xl text-orange-600"/>
+                <div className="text-center text-gray-700 text-lg mt-2">
+                    HTML 5
+                </div>
             </motion.div>
             <motion.div
                 variants={iconVariants(5)}
@@ -56,6 +62,9 @@ const Technologies = () => {
                 className='rounded-2xl border-4 border-neutral-800 p-4'
             >
                 <TbBrandCss3 className="text-7xl text-blue-600"/>
+                <div className="text-center text-gray-700 text-lg mt-2">
+                    CSS 3
+                </div>
             </motion.div>
             <motion.div
                 variants={iconVariants(2)}
@@ -64,6 +73,9 @@ const Technologies = () => {
                 className='rounded-2xl border-4 border-neutral-800 p-4'
             >
                 <RiJavascriptLine className="text-7xl text-yellow-600"/>
+                <div className="text-center text-gray-700 text-lg mt-2">
+                    Javascript
+                </div>
             </motion.div>
             <motion.div
                 variants={iconVariants(2)}
@@ -72,6 +84,9 @@ const Technologies = () => {
                 className='rounded-2xl border-4 border-neutral-800 p-4'
             >
                 <TbBrandRedux className="text-7xl text-purple-600"/>
+                <div className="text-center text-gray-700 text-lg mt-2">
+                    Redux
+                </div>
             </motion.div>
             <motion.div
                 variants={iconVariants(2)}
@@ -80,6 +95,9 @@ const Technologies = () => {
                 className='rounded-2xl border-4 border-neutral-800 p-4'
             >
                 <FaJava className="text-7xl text-red-600"/>
+                <div className="text-center text-gray-700 text-lg mt-2">
+                    Java
+                </div>
             </motion.div>
         </motion.div>
     </div>
